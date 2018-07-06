@@ -9,6 +9,9 @@ struct student
 	int Class;//选手班级
 	int Stel;//选手电话 
     double score[10];
+    int min;
+    int max;
+    int avg;
 	int sum;
 };
 struct referee
